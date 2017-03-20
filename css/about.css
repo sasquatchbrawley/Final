@@ -1,0 +1,77 @@
+/*===HEADER======*/
+header {
+    height: 100px;
+    background-image: url('../img/hero2.jpg');
+    background-color: #000;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0px;
+    /*position: fixed;*/
+    top: 0;
+}
+
+nav {
+    margin: 20px 50px;
+}
+
+nav ul li {
+    font-size: 2em;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 5px;
+    margin: 0px 10px;
+}
+
+li a {
+    color: #12a563;
+    background-color: #000;
+    border: 3px inset #23a300;
+    border-radius: 10px;
+}
+
+
+/*======ASIDE======*/
+
+#music {
+    width: 25%;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+audio {
+    border: 3px outset #23a300;
+}
+
+/*======MAIN======*/
+
+main {
+    height: 700px;
+    width: 700px;
+    margin: 40px auto;
+    padding: 7%;
+    border-radius: 50%;
+    background-image: url('../img/wall.jpg');
+    background-size: contain;
+}
+
+
+#about-main h2 {
+     font-family: 'Rubik Mono One', sans-serif;
+     color: #060E0B;
+}
+
+
+#about-main p {
+     font-family: 'Rubik Mono One', sans-serif;
+     color: #060E0B;
+}
+
+/*=======FOOTER======*/
+
+footer {
+    position: relative;
+    bottom: 0px;
+}
+
+
+

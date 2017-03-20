@@ -1,0 +1,17 @@
+/*======MAIN======*/
+main {
+    height: 380px;
+    width: 380px;
+    margin: 50px auto;
+}
+
+iframe {
+    height: 380px;
+    width: 100%;
+}
+
+/*======FOOTER======*/
+footer {
+    position: absolute;
+    bottom: 0px;
+}
