@@ -8,6 +8,8 @@ main {
 iframe {
     height: 380px;
     width: 100%;
+    border: 10px double green;
+    border-radius: 5%;
 }
 
 /*======FOOTER======*/

@@ -29,10 +29,12 @@ a:hover {
 /*====BODY====*/
 
 body {
-    margin: 0px;
+    margin: auto;
     background-color: #0b0512;
     background-image: url('../img/gfspbanner.png');
     background-size: 50%;
+    width: 100%;
+    
 }
 
 /*===HEADER===*/
@@ -76,6 +78,26 @@ li a {
     border: 10px inset #23a300;
     border-radius: 125px;
     margin: 0px 0px 10px 0px;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 410px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.thumbnail:hover {
+    /*position:relative;*/
+    /*top:-25px;*/
+    /*left:-35px;*/
+    width:500px;
+    height: auto;
+    /*display:block;*/
+    z-index:999;
+    margin: 0px;
 }
 
 .title-style {
@@ -86,6 +108,8 @@ li a {
     position: relative;
     top: 400px;
 }
+
+
 
 /*===Aside Section===*/
 
@@ -160,11 +184,14 @@ aside ul {
 main {
     width: 60%;
     background-color: #030d12;
-    border: 5px outset #00f400;
-    border-radius: 10px;
     margin-right: 5%;
     margin-top: 2.5px;
     margin-bottom: 30px;
+}
+
+#index-main {
+    border: 5px outset #00f400;
+    border-radius: 10px;
 }
 
 #main-title {
@@ -259,8 +286,4 @@ footer #social-media a:hover {
     font-size: 1em;
     color: #fff;
     margin: 0px;
-}
-
-button {
-    gradient-radius
 }
